@@ -19,13 +19,13 @@
 
         <cql-translator.version>1.5.5-SNAPSHOT</cql-translator.version>
         <cql-engine.version>1.5.3-SNAPSHOT</cql-engine.version>
-        <spring.version>5.3.6</spring.version>
-        <dagger.version>2.34.1</dagger.version>
-        <hapi.version>5.5.3</hapi.version>
-        <picocli.version>4.6.1</picocli.version>
+        <spring.version>5.3.13</spring.version>
+        <dagger.version>2.40.5</dagger.version>
+        <hapi.version>5.6.0</hapi.version>
+        <picocli.version>4.6.2</picocli.version>
         <slf4j.version>1.7.29</slf4j.version>
         <caffeine.version>2.9.0</caffeine.version>
-        <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
+        <org.mapstruct.version>1.5.0.Beta1</org.mapstruct.version>
     </properties>
     <modules>
         <module>evaluator</module>
@@ -227,7 +227,7 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>3.9.0</version>
+                <version>4.1.0</version>
                 <scope>test</scope>
             </dependency>
 
